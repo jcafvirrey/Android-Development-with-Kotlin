@@ -13,23 +13,29 @@
         android:theme="@style/Theme.Lesson_4_Build_your_first_Android_app"
         tools:targetApi="31">
         <activity
-            android:name=".ButtonV3Activity"
-            android:exported="true">
-        </activity>
-        <activity
-            android:name=".ButtonV2Activity"
-            android:exported="true">
-
+            android:name=".LateInitActivity"
+            android:exported="false">
 
         </activity>
         <activity
-            android:name=".ButtonV1Activity"
+            android:name=".LayoutInflaterActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".ButtonV3Activity"
+            android:exported="true" />
+        <activity
+            android:name=".ButtonV2Activity"
+            android:exported="true" />
+        <activity
+            android:name=".ButtonV1Activity"
+            android:exported="true">
+
         </activity>
     </application>
 
