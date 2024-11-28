@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DataBinding</string>
+    <string name="text_TV">Welcome Data Binding</string>
+</resources>
